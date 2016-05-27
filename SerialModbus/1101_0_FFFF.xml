@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DeviceDictionary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Плата 16 управляемых выходов</Name>
+  <GenItems>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>ID устройства</Name>
+      <ShowFunction>ShowHex4</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Версия</Name>
+      <ShowFunction>ShowVersion</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>hashcode</Name>
+      <ShowFunction>ShowHex4</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Размер RO</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Размер RW</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Размер ROM</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+  </GenItems>
+  <ROItems>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Ток(8бит) 1</Name>
+      <ShowFunction>ShowOutputModuleCurrent8bit_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Ток(8бит) 2</Name>
+      <ShowFunction>ShowOutputModuleCurrent8bit_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Ток(8бит) 3</Name>
+      <ShowFunction>ShowOutputModuleCurrent8bit_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Ток(8бит) 4</Name>
+      <ShowFunction>ShowOutputModuleCurrent8bit_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Ток(8бит) 5</Name>
+      <ShowFunction>ShowOutputModuleCurrent8bit_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Ток(8бит) 6</Name>
+      <ShowFunction>ShowOutputModuleCurrent8bit_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Ток(8бит) 7</Name>
+      <ShowFunction>ShowOutputModuleCurrent8bit_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Ток(8бит) 8</Name>
+      <ShowFunction>ShowOutputModuleCurrent8bit_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Ток(8бит) 9</Name>
+      <ShowFunction>ShowOutputModuleCurrent8bit_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Ток(8бит) 10</Name>
+      <ShowFunction>ShowOutputModuleCurrent8bit_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Ток(8бит) 11</Name>
+      <ShowFunction>ShowOutputModuleCurrent8bit_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Ток(8бит) 12</Name>
+      <ShowFunction>ShowOutputModuleCurrent8bit_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Ток(8бит) 13</Name>
+      <ShowFunction>ShowOutputModuleCurrent8bit_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Ток(8бит) 14</Name>
+      <ShowFunction>ShowOutputModuleCurrent8bit_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Ток(8бит) 15</Name>
+      <ShowFunction>ShowOutputModuleCurrent8bit_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+	<DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Ток(8бит) 16</Name>
+      <ShowFunction>ShowOutputModuleCurrent8bit_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Регистр состояния</Name>
+      <ShowFunction>ShowHex4</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Мгновенное 1</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Мгновенное 2</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Мгновенное 3</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Мгновенное 4</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Мгновенное 5</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Мгновенное 6</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Мгновенное 7</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Мгновенное 8</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Мгновенное 9</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Мгновенное 10</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Мгновенное 11</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Мгновенное 12</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Мгновенное 13</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Мгновенное 14</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Мгновенное 15</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Мгновенное 16</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Ток(16бит) 1</Name>
+      <ShowFunction>ShowOutputModuleCurrent16bit_x100</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Ток(16бит) 2</Name>
+      <ShowFunction>ShowOutputModuleCurrent16bit_x100</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Ток(16бит) 3</Name>
+      <ShowFunction>ShowOutputModuleCurrent16bit_x100</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Ток(16бит) 4</Name>
+      <ShowFunction>ShowOutputModuleCurrent16bit_x100</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Ток(16бит) 5</Name>
+      <ShowFunction>ShowOutputModuleCurrent16bit_x100</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Ток(16бит) 6</Name>
+      <ShowFunction>ShowOutputModuleCurrent16bit_x100</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Ток(16бит) 7</Name>
+      <ShowFunction>ShowOutputModuleCurrent16bit_x100</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Ток(16бит) 8</Name>
+      <ShowFunction>ShowOutputModuleCurrent16bit_x100</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Ток(16бит) 9</Name>
+      <ShowFunction>ShowOutputModuleCurrent16bit_x100</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Ток(16бит) 10</Name>
+      <ShowFunction>ShowOutputModuleCurrent16bit_x100</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Ток(16бит) 11</Name>
+      <ShowFunction>ShowOutputModuleCurrent16bit_x100</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Ток(16бит) 12</Name>
+      <ShowFunction>ShowOutputModuleCurrent16bit_x100</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Ток(16бит) 13</Name>
+      <ShowFunction>ShowOutputModuleCurrent16bit_x100</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Ток(16бит) 14</Name>
+      <ShowFunction>ShowOutputModuleCurrent16bit_x100</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Ток(16бит) 15</Name>
+      <ShowFunction>ShowOutputModuleCurrent16bit_x100</ShowFunction>
+    </DeviceDictionaryROItem>
+	<DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Ток(16бит) 16</Name>
+      <ShowFunction>ShowOutputModuleCurrent16bit_x100</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>32</Bits>
+      <Use>true</Use>
+      <Name>Время</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Сглаженное 1</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Сглаженное 2</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Сглаженное 3</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Сглаженное 4</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Сглаженное 5</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Сглаженное 6</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Сглаженное 7</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Сглаженное 8</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Сглаженное 9</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Сглаженное 10</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Сглаженное 11</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Сглаженное 12</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Сглаженное 13</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Сглаженное 14</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Сглаженное 15</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+	<DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Сглаженное 16</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+  </ROItems>
+  <RWItems>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Маска управления выходами в стандартном режиме(не ШИМ)</Name>
+      <ShowFunction>ShowHex4</ShowFunction>
+      <ParseFunction>ParseUIntHex</ParseFunction>
+    </DeviceDictionaryRWItem>
+	<DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Маска выбора канала ШИМ</Name>
+      <ShowFunction>ShowHex4</ShowFunction>
+      <ParseFunction>ParseUIntHex</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>12</Bits>
+      <Use>true</Use>
+      <Name>Заполненность ШИМ1(100% == 4095)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>12</Bits>
+      <Use>true</Use>
+      <Name>Заполненность ШИМ2(100% == 4095)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>12</Bits>
+      <Use>true</Use>
+      <Name>Заполненность ШИМ3(100% == 4095)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>12</Bits>
+      <Use>true</Use>
+      <Name>Заполненность ШИМ4(100% == 4095)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>12</Bits>
+      <Use>true</Use>
+      <Name>Заполненность ШИМ5(100% == 4095)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>12</Bits>
+      <Use>true</Use>
+      <Name>Заполненность ШИМ6(100% == 4095)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>12</Bits>
+      <Use>true</Use>
+      <Name>Заполненность ШИМ7(100% == 4095)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>12</Bits>
+      <Use>true</Use>
+      <Name>Заполненность ШИМ8(100% == 4095)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>12</Bits>
+      <Use>true</Use>
+      <Name>Заполненность ШИМ9(100% == 4095)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>12</Bits>
+      <Use>true</Use>
+      <Name>Заполненность ШИМ10(100% == 4095)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>12</Bits>
+      <Use>true</Use>
+      <Name>Заполненность ШИМ11(100% == 4095)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>12</Bits>
+      <Use>true</Use>
+      <Name>Заполненность ШИМ12(100% == 4095)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>12</Bits>
+      <Use>true</Use>
+      <Name>Заполненность ШИМ13(100% == 4095)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>12</Bits>
+      <Use>true</Use>
+      <Name>Заполненность ШИМ14(100% == 4095)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>12</Bits>
+      <Use>true</Use>
+      <Name>Заполненность ШИМ15(100% == 4095)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+	<DeviceDictionaryRWItem>
+      <Bits>12</Bits>
+      <Use>true</Use>
+      <Name>Заполненность ШИМ16(100% == 4095)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+	<DeviceDictionaryRWItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Частота ШИМ(Гц)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>1</Bits>
+      <Use>true</Use>
+      <Name>Управление питанием АЦП</Name>
+      <ShowFunction>ShowHex1</ShowFunction>
+      <ParseFunction>ParseUIntHex</ParseFunction>
+    </DeviceDictionaryRWItem>
+	<DeviceDictionaryRWItem>
+      <Bits>7</Bits>
+      <Use>false</Use>
+      <Name>резерв</Name>
+      <ShowFunction>ShowHex1</ShowFunction>
+      <ParseFunction>ParseUIntHex</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Коэффициент фильтрации1(мин. фильтрация при 100)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Коэффициент фильтрации2(мин. фильтрация при 100)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Коэффициент фильтрации3(мин. фильтрация при 100)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Коэффициент фильтрации4(мин. фильтрация при 100)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Коэффициент фильтрации5(мин. фильтрация при 100)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Коэффициент фильтрации6(мин. фильтрация при 100)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Коэффициент фильтрации7(мин. фильтрация при 100)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Коэффициент фильтрации8(мин. фильтрация при 100)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Коэффициент фильтрации9(мин. фильтрация при 100)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Коэффициент фильтрации10(мин. фильтрация при 100)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Коэффициент фильтрации11(мин. фильтрация при 100)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Коэффициент фильтрации12(мин. фильтрация при 100)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Коэффициент фильтрации13(мин. фильтрация при 100)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Коэффициент фильтрации14(мин. фильтрация при 100)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Коэффициент фильтрации15(мин. фильтрация при 100)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+	<DeviceDictionaryRWItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Коэффициент фильтрации16(мин. фильтрация при 100)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+  </RWItems>
+  <RWFlashItems>
+    <DeviceDictionaryRWItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Сетевой ID</Name>
+      <ShowFunction>ShowHex4</ShowFunction>
+      <ParseFunction>ParseUIntHex</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>1</Bits>
+      <Use>true</Use>
+      <Name>Разрешить короткие ответы RS-485</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+	<DeviceDictionaryRWItem>
+      <Bits>7</Bits>
+      <Use>false</Use>
+      <Name>резерв</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Малый ток калибровки</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Большой ток калибровки</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка ОБРЫВ 1</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка ОБРЫВ 2</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка ОБРЫВ 3</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка ОБРЫВ 4</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка ОБРЫВ 5</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка ОБРЫВ 6</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка ОБРЫВ 7</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка ОБРЫВ 8</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка ОБРЫВ 9</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка ОБРЫВ 10</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка ОБРЫВ 11</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка ОБРЫВ 12</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка ОБРЫВ 13</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка ОБРЫВ 14</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка ОБРЫВ 15</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка ОБРЫВ 16</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка малый ток 1</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка малый ток 2</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка малый ток 3</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка малый ток 4</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка малый ток 5</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка малый ток 6</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка малый ток 7</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка малый ток 8</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка малый ток 9</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка малый ток 10</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка малый ток 11</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка малый ток 12</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка малый ток 13</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка малый ток 14</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка малый ток 15</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+	<DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка малый ток 16</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка большой ток 1</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка большой ток 2</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка большой ток 3</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка большой ток 4</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка большой ток 5</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка большой ток 6</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка большой ток 7</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка большой ток 8</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка большой ток 9</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка большой ток 10</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка большой ток 11</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка большой ток 12</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка большой ток 13</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка большой ток 14</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка большой ток 15</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+	<DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Кал-ка большой ток 16</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+  </RWFlashItems>
+</DeviceDictionary>
+

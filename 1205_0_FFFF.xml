@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DeviceDictionary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Измельчитель</Name>
+  <GenItems>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>ID устройства</Name>
+      <ShowFunction>ShowHex</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Версия</Name>
+      <ShowFunction>ShowVersion</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>hashcode</Name>
+      <ShowFunction>ShowHex</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Размер RO</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Размер RW</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Размер ROM</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+  </GenItems>
+  <ROItems>
+	<DeviceDictionaryROItem>
+      <Bits>32</Bits>
+      <Use>true</Use>
+      <Name>Осталось повторений</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+	<DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Состояние выходов</Name>
+      <ShowFunction>ShowHex</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Регистр состояния</Name>
+      <ShowFunction>ShowHex</ShowFunction>
+    </DeviceDictionaryROItem>
+	<DeviceDictionaryROItem>
+      <Bits>32</Bits>
+      <Use>true</Use>
+      <Name>Время</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+  </ROItems>
+  <RWItems>
+	<DeviceDictionaryRWItem>
+      <Bits>1</Bits>
+      <Use>true</Use>
+      <Name>Смена команды</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+	<DeviceDictionaryRWItem>
+      <Bits>1</Bits>
+      <Use>true</Use>
+      <Name>Пауза</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+	<DeviceDictionaryRWItem>
+      <Bits>30</Bits>
+      <Use>true</Use>
+      <Name>Количество повторений</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+  </RWItems>
+  <RWFlashItems>
+    <DeviceDictionaryRWItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Сетевой ID</Name>
+      <ShowFunction>ShowHex</ShowFunction>
+      <ParseFunction>ParseUIntHex</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>1</Bits>
+      <Use>true</Use>
+      <Name>Разрешить короткие ответы RS-485</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+	<DeviceDictionaryRWItem>
+      <Bits>7</Bits>
+      <Use>false</Use>
+      <Name>резерв</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+	<DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Период (мс)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+	<DeviceDictionaryRWItem>
+      <Bits>32</Bits>
+      <Use>true</Use>
+      <Name>Количество повторов по умолчанию</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+	<DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Время включения соленоида 1</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Продолжительность включения 1</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+	<DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Время включения соленоида 2</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+	<DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Продолжительность включения 2</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+	<DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Время включения соленоида 3</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+	<DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Продолжительность включения 3</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+	<DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Время включения соленоида 4</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+	<DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Продолжительность включения 4</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+	<DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Время выключения соленоида 5</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Продолжительность включения 5</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+	<DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Время выключения соленоида 6</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+	<DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Продолжительность включения 6</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+	<DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Время выключения соленоида 7</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+	<DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Продолжительность включения 7</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+	<DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Время выключения соленоида 8</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+	<DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Продолжительность включения 8</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+  </RWFlashItems>
+</DeviceDictionary>
+

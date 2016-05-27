@@ -1,0 +1,7 @@
+﻿
+*uvgui*
+*.back
+*.uvopt
+*.dep
+*Log.txt
+*.ini

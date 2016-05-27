@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DeviceDictionary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Датчик угла положения</Name>
+  <GenItems>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>ID устройства</Name>
+      <ShowFunction>ShowHex4</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Версия</Name>
+      <ShowFunction>ShowVersion</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>hashcode</Name>
+      <ShowFunction>ShowHex4</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Размер RO</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Размер RW</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Размер ROM</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+  </GenItems>
+  <ROItems>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Значение угла поворота(макс = 8191)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>32</Bits>
+      <Use>true</Use>
+      <Name>Время</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+  </ROItems>
+  <RWItems>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>false</Use>
+      <Name>Резерв</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+  </RWItems>
+  <RWFlashItems>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Сетевой ID</Name>
+      <ShowFunction>ShowHex4</ShowFunction>
+      <ParseFunction>ParseUIntHex</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Задержка отправки RS-485</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>false</Use>
+      <Name>Вспомог. слово</Name>
+      <ShowFunction>ShowHex4</ShowFunction>
+      <ParseFunction>ParseUIntHex</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Разрешить короткие ответы RS-485</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+  </RWFlashItems>
+</DeviceDictionary>
+
+
+
+
+

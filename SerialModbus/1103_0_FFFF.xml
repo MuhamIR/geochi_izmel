@@ -1,0 +1,740 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DeviceDictionary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Плата термодатчиков</Name>
+  <GenItems>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>ID устройства</Name>
+      <ShowFunction>ShowHex4</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Версия</Name>
+      <ShowFunction>ShowVersion</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>hashcode</Name>
+      <ShowFunction>ShowHex4</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Размер RO</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Размер RW</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Размер ROM</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+  </GenItems>
+  <ROItems>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Температура(8bit) А01</Name>
+      <ShowFunction>ShowTemperature_x1</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Температура(8bit) А02</Name>
+      <ShowFunction>ShowTemperature_x1</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Температура(8bit) А03</Name>
+      <ShowFunction>ShowTemperature_x1</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Температура(8bit) А04</Name>
+      <ShowFunction>ShowTemperature_x1</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Температура(8bit) А05</Name>
+      <ShowFunction>ShowTemperature_x1</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Температура(8bit) А06</Name>
+      <ShowFunction>ShowTemperature_x1</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Температура(8bit) А07</Name>
+      <ShowFunction>ShowTemperature_x1</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Температура(8bit) А08</Name>
+      <ShowFunction>ShowTemperature_x1</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Температура(8bit) А09</Name>
+      <ShowFunction>ShowTemperature_x1</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Температура(8bit) А10</Name>
+      <ShowFunction>ShowTemperature_x1</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Температура(8bit) А11</Name>
+      <ShowFunction>ShowTemperature_x1</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Температура(8bit) А12</Name>
+      <ShowFunction>ShowTemperature_x1</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Температура(8bit) А13</Name>
+      <ShowFunction>ShowTemperature_x1</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Температура(8bit) А14</Name>
+      <ShowFunction>ShowTemperature_x1</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Температура(8bit) А15</Name>
+      <ShowFunction>ShowTemperature_x1</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Температура(8bit) А16</Name>
+      <ShowFunction>ShowTemperature_x1</ShowFunction>
+    </DeviceDictionaryROItem>
+	<DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Неудачное чтение А</Name>
+      <ShowFunction>ShowHex4</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Маска найденных датчиков А</Name>
+      <ShowFunction>ShowHex4</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Температура(8bit) Б01</Name>
+      <ShowFunction>ShowTemperature_x1</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Температура(8bit) Б02</Name>
+      <ShowFunction>ShowTemperature_x1</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Температура(8bit) Б03</Name>
+      <ShowFunction>ShowTemperature_x1</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Температура(8bit) Б04</Name>
+      <ShowFunction>ShowTemperature_x1</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Температура(8bit) Б05</Name>
+      <ShowFunction>ShowTemperature_x1</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Температура(8bit) Б06</Name>
+      <ShowFunction>ShowTemperature_x1</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Температура(8bit) Б07</Name>
+      <ShowFunction>ShowTemperature_x1</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Температура(8bit) Б08</Name>
+      <ShowFunction>ShowTemperature_x1</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Температура(8bit) Б09</Name>
+      <ShowFunction>ShowTemperature_x1</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Температура(8bit) Б10</Name>
+      <ShowFunction>ShowTemperature_x1</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Температура(8bit) Б11</Name>
+      <ShowFunction>ShowTemperature_x1</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Температура(8bit) Б12</Name>
+      <ShowFunction>ShowTemperature_x1</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Температура(8bit) Б13</Name>
+      <ShowFunction>ShowTemperature_x1</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Температура(8bit) Б14</Name>
+      <ShowFunction>ShowTemperature_x1</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Температура(8bit) Б15</Name>
+      <ShowFunction>ShowTemperature_x1</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Температура(8bit) Б16</Name>
+      <ShowFunction>ShowTemperature_x1</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Неудачное чтение Б</Name>
+      <ShowFunction>ShowHex4</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Маска найденных датчиков Б</Name>
+      <ShowFunction>ShowHex4</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Регистр состояния</Name>
+      <ShowFunction>ShowHex4</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>32</Bits>
+      <Use>true</Use>
+      <Name>Время</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+	<DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Количество датчиков А</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Количество датчиков Б</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>ID А01</Name>
+      <ShowFunction>ShowTermoId8</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>ID А02</Name>
+      <ShowFunction>ShowTermoId8</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>ID А03</Name>
+      <ShowFunction>ShowTermoId8</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>ID А04</Name>
+      <ShowFunction>ShowTermoId8</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>ID А05</Name>
+      <ShowFunction>ShowTermoId8</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>ID А06</Name>
+      <ShowFunction>ShowTermoId8</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>ID А07</Name>
+      <ShowFunction>ShowTermoId8</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>ID А08</Name>
+      <ShowFunction>ShowTermoId8</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>ID А09</Name>
+      <ShowFunction>ShowTermoId8</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>ID А10</Name>
+      <ShowFunction>ShowTermoId8</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>ID А11</Name>
+      <ShowFunction>ShowTermoId8</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>ID А12</Name>
+      <ShowFunction>ShowTermoId8</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>ID А13</Name>
+      <ShowFunction>ShowTermoId8</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>ID А14</Name>
+      <ShowFunction>ShowTermoId8</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>ID А15</Name>
+      <ShowFunction>ShowTermoId8</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>ID А16</Name>
+      <ShowFunction>ShowTermoId8</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>ID Б01</Name>
+      <ShowFunction>ShowTermoId8</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>ID Б02</Name>
+      <ShowFunction>ShowTermoId8</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>ID Б03</Name>
+      <ShowFunction>ShowTermoId8</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>ID Б04</Name>
+      <ShowFunction>ShowTermoId8</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>ID Б05</Name>
+      <ShowFunction>ShowTermoId8</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>ID Б06</Name>
+      <ShowFunction>ShowTermoId8</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>ID Б07</Name>
+      <ShowFunction>ShowTermoId8</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>ID Б08</Name>
+      <ShowFunction>ShowTermoId8</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>ID Б09</Name>
+      <ShowFunction>ShowTermoId8</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>ID Б10</Name>
+      <ShowFunction>ShowTermoId8</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>ID Б11</Name>
+      <ShowFunction>ShowTermoId8</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>ID Б12</Name>
+      <ShowFunction>ShowTermoId8</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>ID Б13</Name>
+      <ShowFunction>ShowTermoId8</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>ID Б14</Name>
+      <ShowFunction>ShowTermoId8</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>ID Б15</Name>
+      <ShowFunction>ShowTermoId8</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>ID Б16</Name>
+      <ShowFunction>ShowTermoId8</ShowFunction>
+    </DeviceDictionaryROItem>
+	<DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Температура А01</Name>
+      <ShowFunction>ShowTemperature_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Температура А02</Name>
+      <ShowFunction>ShowTemperature_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Температура А03</Name>
+      <ShowFunction>ShowTemperature_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Температура А04</Name>
+      <ShowFunction>ShowTemperature_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Температура А05</Name>
+      <ShowFunction>ShowTemperature_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Температура А06</Name>
+      <ShowFunction>ShowTemperature_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Температура А07</Name>
+      <ShowFunction>ShowTemperature_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Температура А08</Name>
+      <ShowFunction>ShowTemperature_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Температура А09</Name>
+      <ShowFunction>ShowTemperature_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Температура А10</Name>
+      <ShowFunction>ShowTemperature_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Температура А11</Name>
+      <ShowFunction>ShowTemperature_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Температура А12</Name>
+      <ShowFunction>ShowTemperature_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Температура А13</Name>
+      <ShowFunction>ShowTemperature_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Температура А14</Name>
+      <ShowFunction>ShowTemperature_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Температура А15</Name>
+      <ShowFunction>ShowTemperature_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Температура А16</Name>
+      <ShowFunction>ShowTemperature_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Температура Б01</Name>
+      <ShowFunction>ShowTemperature_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Температура Б02</Name>
+      <ShowFunction>ShowTemperature_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Температура Б03</Name>
+      <ShowFunction>ShowTemperature_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Температура Б04</Name>
+      <ShowFunction>ShowTemperature_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Температура Б05</Name>
+      <ShowFunction>ShowTemperature_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Температура Б06</Name>
+      <ShowFunction>ShowTemperature_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Температура Б07</Name>
+      <ShowFunction>ShowTemperature_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Температура Б08</Name>
+      <ShowFunction>ShowTemperature_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Температура Б09</Name>
+      <ShowFunction>ShowTemperature_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Температура Б10</Name>
+      <ShowFunction>ShowTemperature_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Температура Б11</Name>
+      <ShowFunction>ShowTemperature_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Температура Б12</Name>
+      <ShowFunction>ShowTemperature_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Температура Б13</Name>
+      <ShowFunction>ShowTemperature_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Температура Б14</Name>
+      <ShowFunction>ShowTemperature_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Температура Б15</Name>
+      <ShowFunction>ShowTemperature_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+    <DeviceDictionaryROItem>
+      <Bits>16</Bits>
+      <Use>true</Use>
+      <Name>Температура Б16</Name>
+      <ShowFunction>ShowTemperature_x10</ShowFunction>
+    </DeviceDictionaryROItem>
+  </ROItems>
+  <RWItems>
+	<DeviceDictionaryRWItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Новый ID(1-16)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>4</Bits>
+      <Use>true</Use>
+      <Name>Номер программируемого датчика в списке определенных(счет с 0)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>1</Bits>
+      <Use>true</Use>
+      <Name>Канал программируемого датчика(А = 0, Б = 1)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+	<DeviceDictionaryRWItem>
+      <Bits>1</Bits>
+      <Use>true</Use>
+      <Name>Запрос на прошивку ID(TOGGLE BIT)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+	<DeviceDictionaryRWItem>
+      <Bits>1</Bits>
+      <Use>true</Use>
+      <Name>Запрос на выполнение поиска датчиков(TOGGLE BIT)</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+	<DeviceDictionaryRWItem>
+      <Bits>1</Bits>
+      <Use>false</Use>
+      <Name>резерв</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+  </RWItems>
+  <RWFlashItems>
+    <DeviceDictionaryRWItem>
+      <Bits>8</Bits>
+      <Use>true</Use>
+      <Name>Сетевой ID</Name>
+      <ShowFunction>ShowHex4</ShowFunction>
+      <ParseFunction>ParseUIntHex</ParseFunction>
+    </DeviceDictionaryRWItem>
+    <DeviceDictionaryRWItem>
+      <Bits>1</Bits>
+      <Use>true</Use>
+      <Name>Разрешить короткие ответы RS-485</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+	<DeviceDictionaryRWItem>
+      <Bits>7</Bits>
+      <Use>false</Use>
+      <Name>резерв</Name>
+      <ShowFunction>ShowUInt</ShowFunction>
+      <ParseFunction>ParseUInt</ParseFunction>
+    </DeviceDictionaryRWItem>
+  </RWFlashItems>
+</DeviceDictionary>
+
+
+
+
+
