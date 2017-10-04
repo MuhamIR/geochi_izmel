@@ -301,7 +301,9 @@ static void SetSysClock(void)
 
   if ((RCC->CR & RCC_CR_HSERDY) != RESET)
   {
-    HSEStatus = (uint32_t)0x01;
+  #warning ttt
+  	//HSEStatus = (uint32_t)0x00;
+    HSEStatus = (uint32_t)0x00;
   }
   else
   {
