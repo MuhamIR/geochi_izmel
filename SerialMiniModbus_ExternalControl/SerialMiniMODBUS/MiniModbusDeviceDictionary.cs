@@ -338,7 +338,7 @@ namespace MiniModbus
     }
 
 
-    class MiniModbusDeviceTableShell
+    public class MiniModbusDeviceTableShell
     {
         public event EventHandler TablesWereCreated;
 
@@ -376,7 +376,7 @@ namespace MiniModbus
             RWFlashInfo.Fill();
         }
 
-        MiniModbusDevice _device;
+        public MiniModbusDevice _device;
         DeviceDictionary _dictionary;
         public string Name { get { return _dictionary.Name; } }
 

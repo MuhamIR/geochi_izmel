@@ -1,0 +1,41 @@
+{
+  "input_filename": "input.txt",
+  "output_filename": "output.txt",
+  "serial_port": "COM6",
+  "period_ms": 2500,
+  "output_settings": [
+    {
+      "start_time_ms": 0,
+      "duration_ms": 500
+    },
+    {
+      "start_time_ms": 400,
+      "duration_ms": 500
+    },
+    {
+      "start_time_ms": 800,
+      "duration_ms": 500
+    },
+    {
+      "start_time_ms": 1200,
+      "duration_ms": 500
+    },
+    {
+      "start_time_ms": 1600,
+      "duration_ms": 500
+    },
+    {
+      "start_time_ms": 0,
+      "duration_ms": 0
+    },
+    {
+      "start_time_ms": 0,
+      "duration_ms": 0
+    },
+    {
+      "start_time_ms": 0,
+      "duration_ms": 0
+    }
+  ],
+  "__bus_id": 1
+}
